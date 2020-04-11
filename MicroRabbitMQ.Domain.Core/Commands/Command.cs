@@ -1,7 +1,5 @@
 ﻿using MicroRabbitMQ.Domain.Core.Events;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MicroRabbitMQ.Domain.Core.Commands
 {
