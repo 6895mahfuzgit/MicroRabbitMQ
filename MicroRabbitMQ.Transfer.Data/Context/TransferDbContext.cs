@@ -1,9 +1,7 @@
-﻿using MicroRabbitMQ.Transfer.Domain.Models;
+﻿
 using Microsoft.EntityFrameworkCore;
+using MicroRabbitMQ.Transfer.Domain.Models;
 using Microsoft.EntityFrameworkCore.Design;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MicroRabbitMQ.Transfer.Data.Context
 {

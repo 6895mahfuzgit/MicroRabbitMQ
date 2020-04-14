@@ -12,8 +12,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MicroRabbitMQ.Infra.IoC\MicroRabbitMQ.Infra.IoC.csproj" />
+    <ProjectReference Include="..\MicroRabbitMQ.Transfer.Application\MicroRabbitMQ.Transfer.Application.csproj" />
     <ProjectReference Include="..\MicroRabbitMQ.Transfer.Data\MicroRabbitMQ.Transfer.Data.csproj" />
   </ItemGroup>
+
+
 
 
 </Project>

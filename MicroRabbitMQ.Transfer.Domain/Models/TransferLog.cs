@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MicroRabbitMQ.Transfer.Domain.Models
+﻿namespace MicroRabbitMQ.Transfer.Domain.Models
 {
     public class TransferLog
     {

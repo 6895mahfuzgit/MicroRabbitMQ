@@ -36,8 +36,7 @@ namespace MicroRabbitMQ.Banking.Api
             RegisterServices(services);
 
             services.AddDbContext<BankingDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer("Server=LAPTOP-TT5P3OP6\\SQLEXPRESS;Database=BankingDB;Trusted_Connection=True;MultipleActiveResultSets=True;"));
 
         }
 
